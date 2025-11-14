@@ -1,0 +1,47 @@
+html {
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-color: white gray;
+}
+
+body {
+    position: relative;
+    font-family: "DM Sans", serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 28px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: 0.2s ease;
+  text-decoration: none;
+}
+
+.btn--primary {
+  background-color: #18b48c; // зелёный
+  color: #ffffff;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: #222831;
+  border-color: #222831;
+
+  &:hover {
+    background-color: #222831;
+    color: #ffffff;
+  }
+}

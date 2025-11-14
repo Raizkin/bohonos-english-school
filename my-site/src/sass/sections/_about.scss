@@ -1,0 +1,46 @@
+.about {
+  background-color: $why-us-bg; 
+  padding: 50px 0;
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+    @media (max-width: 900px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.about-card {
+  background-color: lighten($why-us-bg, 4%); 
+  padding: 28px 24px 26px;
+  border-radius: 6px;
+  color: $color-white;
+  text-align: left;
+
+  &__icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: lighten($why-us-bg, 4%); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    margin-bottom: 18px;
+  }
+
+  &__title {
+    font-size: 16px;
+    margin: 0 0 12px;
+  }
+
+  &__text {
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 0;
+    color: lighten($color-muted, 15%);
+  }
+}
