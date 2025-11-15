@@ -707,12 +707,13 @@ body {
 }
 
 .footer-ig__text {
-  color: #fff;
+  color: #222;
   margin: 0 0 14px;
   font-size: 14px;
 }
 
 .footer-ig__btn {
+  background-color: #8b5b3d;
   justify-content: center;
   font-size: 14px;
 }
