@@ -1,6 +1,8 @@
 .about {
-  background-color: $why-us-bg; 
+  background-color: $color-white; 
   padding: 50px 0;
+  border-bottom: 1px solid #8f7d7d;
+
 
   &__cards {
     display: grid;
@@ -14,17 +16,19 @@
 }
 
 .about-card {
-  background-color: lighten($why-us-bg, 4%); 
+  background-color: $color-brand-brown-soft; 
   padding: 28px 24px 26px;
   border-radius: 6px;
   color: $color-white;
+  font-size: 15px;
+  font-weight: 600;
   text-align: left;
 
   &__icon {
     width: 52px;
     height: 52px;
     border-radius: 50%;
-    background-color: lighten($why-us-bg, 4%); 
+    background-color: $color-brand-brown-soft; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,9 +42,10 @@
   }
 
   &__text {
-    font-size: 13px;
-    line-height: 1.6;
-    margin: 0;
-    color: lighten($color-muted, 15%);
+  color: $color-white;
+  font-size: 15px;
+  font-weight: 600;
+   line-height: 1.6;
+   margin: 0;
   }
 }

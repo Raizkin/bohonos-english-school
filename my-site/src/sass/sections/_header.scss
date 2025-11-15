@@ -1,6 +1,7 @@
 .header {
   background-color: $color-white;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid #8f7d7d;
+  
 
   &__inner {
     display: flex;
@@ -80,7 +81,7 @@
       bottom: 0;
       width: 100%;
       height: 2px;
-      background-color: $color-accent; // поменяешь сам в переменных
+      background-color: $color-brand-cream;
     }
   }
 }

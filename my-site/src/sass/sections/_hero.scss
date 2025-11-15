@@ -21,7 +21,7 @@
 
   &__subtitle {
     margin: 0 0 12px;
-    color: $color-muted;
+    color: $color-text;
     font-size: 14px;
   }
 
@@ -32,7 +32,7 @@
   }
 
   &__note-link {
-    color: $color-accent;
+    color: $color-text;
   }
 
   &__image-wrapper {
@@ -48,7 +48,7 @@
     width: 280px;
     height: 280px;
     border-radius: 50%;
-    background-color: $color-accent; // цвет круга
+    background-color: $color-brand-cream; 
   }
 
   &__image {
@@ -73,15 +73,15 @@
   }
 }
 
-// новая кнопка в hero
+
 .hero__btn {
-  margin-top: 24px;
+  margin-top: 20px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 14px 32px;
   border-radius: 6px;
-  background-color: $color-accent;
+  background-color: $color-brand-brown-soft;
   color: $color-white;
   font-size: 15px;
   font-weight: 600;

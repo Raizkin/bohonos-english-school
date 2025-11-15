@@ -1,6 +1,7 @@
 .steps {
-  background-color: $why-us-bg;
+  background-color: $color-white;
   padding: 60px 0 70px;
+  border-bottom: 1px solid #8f7d7d;
 
   &__head {
     text-align: center;
@@ -11,13 +12,13 @@
   &__title {
     margin: 0 0 10px;
     font-size: 30px;
-    color: $color-white;
+    color: $color-text;
   }
 
   &__subtitle {
     margin: 0;
     font-size: 14px;
-    color: $color-bg;
+    color: $color-text;
   }
 
   &__grid {
@@ -42,7 +43,7 @@
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background-color: $color-accent;
+    background-color: $color-brand-brown-soft;
     color: $color-white;
     display: flex;
     align-items: center;
