@@ -636,9 +636,10 @@ body {
 .footer-ig__text {
   font-size: 14px;
   margin: 0 0 14px;
-  color: #ffffff;
+  color: #222222;
 }
 .footer-ig__btn {
   justify-content: center;
   font-size: 14px;
+  background-color: #8b5b3d;
 }/*# sourceMappingURL=main.css.map */
