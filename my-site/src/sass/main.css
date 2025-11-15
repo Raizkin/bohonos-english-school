@@ -278,19 +278,17 @@ body {
 }
 
 .about-card {
-  background-color: #8b5b3d;
+  background-color: rgb(55.2910891089, 62.502970297, 66.1089108911);
   padding: 28px 24px 26px;
   border-radius: 6px;
   color: #ffffff;
-  font-size: 15px;
-  font-weight: 600;
   text-align: left;
 }
 .about-card__icon {
   width: 52px;
   height: 52px;
   border-radius: 50%;
-  background-color: #8b5b3d;
+  background-color: rgb(55.2910891089, 62.502970297, 66.1089108911);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -299,12 +297,12 @@ body {
 }
 .about-card__title {
   font-size: 16px;
+  font-weight: 700;
   margin: 0 0 12px;
 }
 .about-card__text {
   color: #ffffff;
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 13px;
   line-height: 1.6;
   margin: 0;
 }
