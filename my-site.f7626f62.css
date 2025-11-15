@@ -104,7 +104,7 @@ body {
 
 .header {
   background-color: #fff;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid #8f7d7d;
 }
 
 .header__inner {
@@ -177,7 +177,7 @@ body {
 
 .nav__link--active:after, .nav__link:hover:after {
   content: "";
-  background-color: #8b5b3d;
+  background-color: #faefe4;
   width: 100%;
   height: 2px;
   position: absolute;
@@ -208,7 +208,7 @@ body {
 }
 
 .hero__subtitle {
-  color: #777;
+  color: #222;
   margin: 0 0 12px;
   font-size: 14px;
 }
@@ -220,7 +220,7 @@ body {
 }
 
 .hero__note-link {
-  color: #8b5b3d;
+  color: #222;
 }
 
 .hero__image-wrapper {
@@ -233,7 +233,7 @@ body {
 }
 
 .hero__circle {
-  background-color: #8b5b3d;
+  background-color: #faefe4;
   border-radius: 50%;
   width: 280px;
   height: 280px;
@@ -268,7 +268,7 @@ body {
   border-radius: 6px;
   justify-content: center;
   align-items: center;
-  margin-top: 24px;
+  margin-top: 20px;
   padding: 14px 32px;
   font-size: 15px;
   font-weight: 600;
@@ -290,7 +290,8 @@ body {
 }
 
 .about {
-  background-color: #2e3437;
+  background-color: #fff;
+  border-bottom: 1px solid #8f7d7d;
   padding: 50px 0;
 }
 
@@ -309,13 +310,15 @@ body {
 .about-card {
   color: #fff;
   text-align: left;
-  background-color: #373f42;
+  background-color: #8b5b3d;
   border-radius: 6px;
   padding: 28px 24px 26px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .about-card__icon {
-  background-color: #373f42;
+  background-color: #8b5b3d;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
@@ -332,7 +335,78 @@ body {
 }
 
 .about-card__text {
-  color: #9d9d9d;
+  color: #fff;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.steps {
+  background-color: #fff;
+  border-bottom: 1px solid #8f7d7d;
+  padding: 60px 0 70px;
+}
+
+.steps__head {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 40px;
+}
+
+.steps__title {
+  color: #222;
+  margin: 0 0 10px;
+  font-size: 30px;
+}
+
+.steps__subtitle {
+  color: #222;
+  margin: 0;
+  font-size: 14px;
+}
+
+.steps__grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  display: grid;
+}
+
+@media (width <= 900px) {
+  .steps__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.step-card {
+  text-align: left;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 24px 22px;
+  box-shadow: 0 10px 22px #0000001f;
+}
+
+.step-card__number {
+  color: #fff;
+  background-color: #8b5b3d;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 12px;
+  font-weight: 700;
+  display: flex;
+}
+
+.step-card__title {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.step-card__text {
+  color: #777;
   margin: 0;
   font-size: 13px;
   line-height: 1.6;
@@ -419,77 +493,9 @@ body {
   line-height: 1.6;
 }
 
-.steps {
-  background-color: #2e3437;
-  padding: 60px 0 70px;
-}
-
-.steps__head {
-  text-align: center;
-  max-width: 640px;
-  margin: 0 auto 40px;
-}
-
-.steps__title {
-  color: #fff;
-  margin: 0 0 10px;
-  font-size: 30px;
-}
-
-.steps__subtitle {
-  color: #f5f5f5;
-  margin: 0;
-  font-size: 14px;
-}
-
-.steps__grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
-  display: grid;
-}
-
-@media (width <= 900px) {
-  .steps__grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-.step-card {
-  text-align: left;
-  background-color: #f5f5f5;
-  border-radius: 8px;
-  padding: 24px 22px;
-  box-shadow: 0 10px 22px #0000001f;
-}
-
-.step-card__number {
-  color: #fff;
-  background-color: #8b5b3d;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-  width: 32px;
-  height: 32px;
-  margin-bottom: 12px;
-  font-weight: 700;
-  display: flex;
-}
-
-.step-card__title {
-  margin: 0 0 8px;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.step-card__text {
-  color: #777;
-  margin: 0;
-  font-size: 13px;
-  line-height: 1.6;
-}
-
 .questions {
   background-color: #fff;
+  border-bottom: 1px solid #8f7d7d;
   padding: 70px 0;
   position: relative;
   overflow: hidden;
@@ -691,6 +697,7 @@ body {
 
 .footer-ig {
   text-align: center;
+  background-color: #fff;
   padding: 24px 0;
 }
 
